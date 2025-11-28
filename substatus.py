@@ -215,14 +215,14 @@ def main():
     if not HAS_TQDM:
         print(f"{colors.YELLOW}[WARN] tqdm not installed. Progress bar disabled. Install: pip install tqdm{colors.RESET}")
 
-    print(f"ðŸ” Fetching subdomains for: {domain}")
+    print(f"🔍 Fetching subdomains for: {domain}")
     subdomains = get_subdomains(domain)
     if not subdomains:
-        print("âŒ No subdomains found.")
+        print("❌ No subdomains found.")
         return
 
-    print(f"âœ” Found {len(subdomains)} subdomains")
-    print("ðŸŒ Checking their status...")
+    print(f"✔ Found {len(subdomains)} subdomains")
+    print("🌐 Checking their status...")
 
     results = []
     for sd in tqdm(subdomains, desc="Processing", unit="subdomain"):
@@ -237,7 +237,7 @@ def main():
 
     if filter_code is not None:
         results = [r for r in results if r["code"] == filter_code]
-        print(f"\nðŸŽ¯ Filter: status code {filter_code} â†’ {len(results)} match(es)")
+        print(f"\n🎯 Filter: status code {filter_code} â†’ {len(results)} match(es)")
 
     if not results:
         print("No results to display.")
@@ -246,7 +246,7 @@ def main():
     print_results_table(results, cname=do_cname, dns=do_dns)
 
     if not export_type:
-        print("\nðŸ“Œ No export selected (-exp). Results shown on screen only.")
+        print("\n📌 No export selected (-exp). Results shown on screen only.")
         return
 
     filename = f"substatus_{domain}.{export_type}"
@@ -257,7 +257,7 @@ def main():
     else:
         export_results_csv(filepath, results, cname=do_cname, dns=do_dns)
 
-    print(f"\nðŸ’¾ Results exported to: {filepath}")
+    print(f"\n💾 Results exported to: {filepath}")
 
 
 if __name__ == "__main__":
