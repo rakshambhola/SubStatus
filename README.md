@@ -3,6 +3,8 @@
 ### Fast & Smart Subdomain Status Scanner for Recon, Bug Bounty & Pentesting
 Discover subdomains → detect live hosts → analyze HTTP responses → export results.
 
+SubStatus is a tool that takes a website domain and automatically finds its subdomains, checks which ones are online, and shows their HTTP response codes. It can also collect extra information like DNS & CNAME records and export the results to a report file. The main purpose of SubStatus is to save time during recon by quickly identifying active subdomains that may be useful for bug bounty and penetration testing.
+
 ---
 
 ## Options:
@@ -97,13 +99,6 @@ substatus -version
 * Exporting to CSV/TXT for reporting
 
 It’s designed to save time during recon, highlight interesting targets, and provide a clean workflow for bug bounty hunters & penetration testers.
-
----
-
-Install required libraries:
-```
-pip install Pillow tqdm
-```
 
 ---
 
