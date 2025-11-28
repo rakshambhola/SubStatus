@@ -25,8 +25,16 @@ SubStatus is a tool that takes a website domain and automatically finds its subd
 
 ```
 sudo apt install subfinder
+```
+```
 sudo apt install python
+```
+```
 pip install requests tqdm dnspython
+```
+or
+```
+pip install requests tqdm dnspython --break-system-packages 
 ```
 
 ### 2️⃣ Clone the repo
