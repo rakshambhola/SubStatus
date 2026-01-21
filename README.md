@@ -13,6 +13,8 @@
 
 </div>
 
+---
+
 # 🔥 SubStatus - A Kali Linux Tool
   
 ### Fast & Smart Subdomain Status Scanner for Recon, Bug Bounty & Pentesting
