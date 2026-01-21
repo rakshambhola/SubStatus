@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="#options">Options</a> •
-  <a href="#📥installation">Installation</a> •
-  <a href="#🧠usage">Usage</a> •
+  <a href="#installation">📥 Installation</a> •
+  <a href="#usage">🧠 Usage</a> •
   <a href="#scope">Scope</a>
 </p>
 
