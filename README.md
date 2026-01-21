@@ -1,4 +1,19 @@
-# 🔥 SubStatus for Kali Linux
+<div align="center">
+
+# SubStatus
+
+### *A Kali Linux Tool*
+
+<p align="center">
+  <a href="#options">Options</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#scope">Scope</a>
+</p>
+
+</div>
+
+# 🔥 SubStatus - A Kali Linux Tool
   
 ### Fast & Smart Subdomain Status Scanner for Recon, Bug Bounty & Pentesting
 Discover subdomains → detect live hosts → analyze HTTP responses → export results.
@@ -134,3 +149,13 @@ You are responsible for your actions.
 ## 📜 License
 
 This project is open-source and available under the **MIT License**.
+
+---
+
+<div align="center">
+
+**Star ⭐ this repo if you find it useful!**
+
+[⬆ Back to Top](#SubStatus)
+
+</div>
