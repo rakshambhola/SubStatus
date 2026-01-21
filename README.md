@@ -34,7 +34,7 @@ SubStatus is a tool that takes a website domain and automatically finds its subd
 
 ---
 
-## 📥 Installation
+## Installation 📥
 
 ### 1️⃣ Requirements
 
