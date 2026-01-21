@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="#options">Options</a> •
-  <a href="#installation">📥 Installation</a> •
-  <a href="#usage">🧠 Usage</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
   <a href="#scope">Scope</a>
 </p>
 
@@ -34,7 +34,7 @@ SubStatus is a tool that takes a website domain and automatically finds its subd
 
 ---
 
-## Installation 📥
+## Installation
 
 ### 1️⃣ Requirements
 
@@ -73,7 +73,7 @@ sudo mv substatus.py /usr/local/bin/substatus
 
 ---
 
-## 🧠 Usage
+## Usage
 
 ### 🔹 Basic scan
 
